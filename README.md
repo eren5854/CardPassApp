@@ -23,17 +23,21 @@ STL VE SOLIDWORKS dosyaları indirdikten sonra 3d yazıcıdan baskı alabilirsin
 zevkinize göre düzenleyebilirsiniz.
 
 Bağlantı Şeması:
-_______________________
-| RFID   |   Nodemcu  |
-| ------------------- |
-| SDA    =>   D4      |
-| SCL    =>   D5      |
-| MOSI   =>   D7      |
-| MISO   =>   D6      |   
-| IRQ    =>   BOŞ     |
-| GND    =>   G       |
-| RST    =>   BOŞ     |
-| 3.3V   =>   3V      |
-|_____________________|
 
-nodemcu_rfid.ino dosyasını arduino ide yazılımı ile açıldıktan sonra 
+RFID  
+Nodemcu  
+
+SDA    =>  Nodemcu  D4      
+SCL    =>  Nodemcu  D5      
+MOSI   =>  Nodemcu  D7     
+MISO   =>  Nodemcu  D6      
+GND    =>  Nodemcu  G       
+RST    =>  Nodemcu  BOŞ     
+3.3V   =>  Nodemcu  3V      
+
+
+nodemcu_rfid.ino dosyasını arduino ide yazılımı ile açıldıktan sonra Dosya > Tercihler > Ek devre kartları yöneticisi kısmına aşağıdakı satırı kopyalayıp yapıştırın.
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
+Araçlar > Kart > Kart Yöneticisi tıklayarak kart yöneticisini açın ardından arama yerine esp8266 yazın gelen seçenekte en son versiyonu seçip kurun.
+Talak > library ekle > kütüphaneleri yönet kısmına tıklayın ardından arama yerine MFRC522 yazın 
+
