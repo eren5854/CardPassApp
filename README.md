@@ -27,12 +27,9 @@ Bağlantı Şeması:
 RFID  SDA    =>  Nodemcu  D4      
 RFID  SCL    =>  Nodemcu  D5      
 RFID  MOSI   =>  Nodemcu  D7     
-RFID  MISO   =>  Nodemcu  D6
-
-RFID  IRQ    =>  BOŞ
-
-RFID  GND    =>  Nodemcu  G
-
+RFID  MISO   =>  Nodemcu  D6 
+RFID  IRQ    =>  BOŞ 
+RFID  GND    =>  Nodemcu  G 
 RFID  RST    =>  BOŞ    
 RFID  3.3V   =>  Nodemcu  3V      
 
