@@ -26,7 +26,6 @@ Bağlantı Şeması:
 
 RFID  
 Nodemcu  
-
 SDA    =>  Nodemcu  D4      
 SCL    =>  Nodemcu  D5      
 MOSI   =>  Nodemcu  D7     
