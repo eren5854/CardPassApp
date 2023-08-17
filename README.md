@@ -34,8 +34,14 @@ RFID  RST    =>  BOŞ
 RFID  3.3V   =>  Nodemcu  3V      
 
 
-nodemcu_rfid.ino dosyasını arduino ide yazılımı ile açıldıktan sonra Dosya > Tercihler > Ek devre kartları yöneticisi kısmına aşağıdakı satırı kopyalayıp yapıştırın.
+nodemcu_rfid.ino dosyasını arduino ide yazılımı ile açıldıktan sonra Dosya > Tercihler > Ek devre kartları yöneticisi kısmına aşağıdakı 
+satırı kopyalayıp yapıştırın.
+
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 Araçlar > Kart > Kart Yöneticisi tıklayarak kart yöneticisini açın ardından arama yerine esp8266 yazın gelen seçenekte en son versiyonu seçip kurun.
-Talak > library ekle > kütüphaneleri yönet kısmına tıklayın ardından arama yerine MFRC522 yazın 
+
+Taslak > library ekle > kütüphaneleri yönet kısmına tıklayın ardından arama yerine MFRC522 yazın by GithubCommunity olan kütüphanenin son versiyonunu kurun.
+
+Kartı bilgisayara takın ardından Araçlar > Kart > Esp8266 Boards > NodeMCU 1.0 seçtikten sonra yazılımı yükleyebilirsiniz.
 
