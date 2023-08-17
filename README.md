@@ -24,15 +24,14 @@ zevkinize göre düzenleyebilirsiniz.
 
 Bağlantı Şeması:
 
-RFID  
-Nodemcu  
-SDA    =>  Nodemcu  D4      
-SCL    =>  Nodemcu  D5      
-MOSI   =>  Nodemcu  D7     
-MISO   =>  Nodemcu  D6      
-GND    =>  Nodemcu  G       
-RST    =>  Nodemcu  BOŞ     
-3.3V   =>  Nodemcu  3V      
+RFID  SDA    =>  Nodemcu  D4      
+RFID  SCL    =>  Nodemcu  D5      
+RFID  MOSI   =>  Nodemcu  D7     
+RFID  MISO   =>  Nodemcu  D6
+RFID  IRQ    =>  BOŞ
+RFID  GND    =>  Nodemcu  G       
+RFID  RST    =>  BOŞ    
+RFID  3.3V   =>  Nodemcu  3V      
 
 
 nodemcu_rfid.ino dosyasını arduino ide yazılımı ile açıldıktan sonra Dosya > Tercihler > Ek devre kartları yöneticisi kısmına aşağıdakı satırı kopyalayıp yapıştırın.
